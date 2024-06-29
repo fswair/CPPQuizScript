@@ -47,7 +47,7 @@ class CPPQuiz:
         answer = input("What is the answer?")
         result = False
         while (not result):
-            result = base.validate_answer_for_question(q_id, answer)
+            result = this.validate_answer_for_question(q_id, answer)
             if result:
                 break
             else:
